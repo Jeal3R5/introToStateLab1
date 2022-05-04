@@ -1,2 +1,2 @@
-# introToStateLab1
+# intoToStateLab-jr
 Created with CodeSandbox
