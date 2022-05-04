@@ -8,13 +8,12 @@ import imagesArr from "./imageData";
 export default function App() {
   // USE useState TO CREATE  [bigImage, setBigImage]
   const [bigImage, setBigImage] = useState(imagesArr[0].img);
-  console.log(bigImage);
 
   //console.log(bigImage)
-  console.log(useState);
+  //console.log(bigImage);
   // AND SET IT TO THE IMAGE URL OF THE FIRST ELEMENT IN THE ARRAY
 
-  staticCityImgs = useState[0];
+  let staticCityImgs = useState[0];
 
   // CREATE A HANDLE CLICK FUNCTION THAT ACCEPTS AN IMAGE URL
   //const handleImage
@@ -23,7 +22,7 @@ export default function App() {
   // CREATE A VARIABLE CALLED images THAT LOOPs OVER THE imagesArr AND RETURNS AN <IMG> ELEMENT
   // ASSIGN ALL OF THE PROPERTIES THAT IT NEEDS: src, alt, className, key INCLUDING AN onClick EVENT THAT CALLS THE HANDLE EVENT FUNCTION AND PASSES IT THE IMG URL
 
-  return (
+  let images = images.return(
     <div className="App">
       <h1>Cities Of The World</h1>
       <div id="wrapper">
